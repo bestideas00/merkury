@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6, a {
+    padding: 0;
+    margin: 0;
+}
+ul,ol {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+:root {
+    --color1 : #5584ff;
+    --color2 : #233a72;
+}
+body {
+    overflow-x: hidden;
+}
+/* nav star */
+nav {
+    margin: 0 0 -100px 0;
+}
+nav span {
+    color: #4c76e4 !important;
+    border: 1px solid #233a72;
+    border-radius: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+/* nav end */
+/* banner start */
+.banner_part {
+    background: url(../img/03-banner.png) no-repeat center;
+    background-size: cover;
+}
+.banner_part .text_description {
+    color: #fff;
+    padding: 0 0 45% 0;
+}
+.banner_part .text_description h2 {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 230px 0 0 0;
+}
+.banner_part .text_description p {
+    font-size: 36px;
+    font-weight: 400;
+    color: #8492af;
+}
+.banner_part .banner_btn .btn-primary {
+    border-radius: 30px;
+    padding: 2px 30px;
+    margin: 60px 0 0 0;
+    background: #5584ff;
+    border: #5584ff;
+}
+/* banner end */
+/* service start */
+.service_part {
+    padding: 100px 0;
+}
+.service_part .service_con {
+    position: relative;
+}
+.service_part .service_con .img_item .line {
+    position: absolute;
+    top: 26px;
+    left: 75%;
+}
+.service_part .service_con .text_item h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 40px 0 0 0;
+}
+.service_part .service_con .text_item p {
+    font-size: 18px;
+    font-weight: 400; 
+    color: #8492af;
+    width: 390px;
+}
+.service_part .service_con .service_btn .btn-primary {
+    border: 1px solid #dadee7;
+    border-radius: 25px;
+    color: #0e1a35 !important;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+/* service end */
+/* service start */
+.about_part {
+    margin: 0 0 40px 0;
+}
+.about_part .browser_info {
+    margin: 82px 0 0 180px;
+}
+.about_part .browser_info h2 {
+    font-size: 59px;
+    font-weight: 100;
+    color: #0e1a35;
+}
+.about_part .browser_info p {
+    color: #8492af;
+    margin: 20px 0 20px 0;
+    width: 533px;
+}
+.about_part .browser_info .bt_tex {
+    color: #5584ff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about_part .browser_info .bt_tex ul li {
+    margin: 20px 0 0 0;
+}
+.about_part .browser_info .bt_tex img {
+    margin: 0 10px 0 0;
+}
+/* service end */
+/* drag start */
+.drag_part {
+    background: url(../img/drag&drop.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 130px 0;
+}
+.drag_part .img_con {
+    cursor: pointer;
+}
+.drag_part .img_con span {
+    color: #8492af;
+}
+.drag_part .img_con i {
+    margin: 0 0 0 84px;
+}
+.drag_part .img_con h3 {
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+.drag_part .img_con img {
+    width: 100%;
+}
+.drag_part .img_con .drag_btn {
+    margin: 10px 0 0 0;
+}
+.drag_part .img_con .drag_btn a {
+    padding: 22px 108px;
+    background: transparent;
+    border: 2px dotted #8492af;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8492af !important;
+}
+.drag_part .text_con {
+    margin: 0 0 0 80px;
+}
+.drag_part .text_slider .text h2 {
+    font-size: 60px;
+    font-weight: 100;
+    color: #fff;
+    margin: 49px 0 17px 0;
+}
+.drag_part .text_slider .text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #8492af;
+    margin: 0 0 20px 0;
+}
+.drag_part .text_con .prev {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #a5aec3;
+    border: 1px solid #a5aec3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.drag_part .text_con .next {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #a5aec3;
+    border: 1px solid #a5aec3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+/* drag end */
+/* template start */
+.template_part {
+    padding: 60px 0;
+    background: #f6f7fa;
+}
+.template_part .title h2 {
+    font-size: 60px;
+    font-weight: 100;
+    color: #0e1a35;
+    margin: 0 0 30px 0;
+}
+.template_part .title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* template end */
