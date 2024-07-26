@@ -213,6 +213,7 @@ nav span {
     font-weight: 100;
     color: #0e1a35;
     margin: 0 0 30px 0;
+    text-align: center;
 }
 .template_part .title p {
     font-size: 18px;
@@ -220,6 +221,131 @@ nav span {
     color: #8492af;
     width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
-
+.template_part .temp_con_main {
+    position: relative;
+    height: 722px;
+    background: url(../img/pow_psd_img.png) no-repeat center;
+    background-size: cover;
+    margin: 60px 0 0 0;
+}
+.template_part .temp_con_main img {
+    width: 94%;
+}
+.template_part .clean {
+    width: 672px;
+    position: relative;
+    top: 10%;
+    left: 0;
+}
+.template_part .clean p {
+    width: 199px;
+}
+.template_part .easy {
+    width: 672px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 175px;
+}
+.template_part .easy p {
+    width: 199px;
+    margin: 0 0 0 474px;
+}
 /* template end */
+/* pricing start */
+.pricing_part {
+    padding: 60px 0;
+}
+.pricing_part .title {
+    margin: 0 0 60px 0;
+}
+.pricing_part .item {
+    padding: 20px 0;
+    box-shadow: 0px 7px 60px -3px rgba(0,0,0,0.75);
+}
+.pricing_part .row > * {
+	padding-right: calc(var(--bs-gutter-x) * 2.5);
+	padding-left: calc(var(--bs-gutter-x) * 2.5);
+}
+.pricing_part .item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #0e1a35;
+    padding: 40px 0;
+}
+.pricing_part .item .price p {
+    font-size: 72px;
+    font-weight: 700;
+    color: #0e1a35;
+}
+.pricing_part .item .price span {
+    font-size: 24px;
+    font-weight: 400;
+    color: #8492af;
+}
+.pricing_part .item ul li {
+    margin: 0 0 10px 0;
+    color: #8492af;
+}
+.pricing_part .item ul li img {
+    margin: 0 10px 0 0;
+}
+.pricing_part .notis {
+    padding: 40px 0;
+    position: relative;
+}
+.pricing_part .notis p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 840px;
+    margin: 0 auto;
+    color: #8492af;
+}
+.pricing_part .notis .btn {
+    margin: 20px 0 0 0;
+}
+.pricing_part .notis .btn a {
+    border-radius: 20px;
+    padding: 5px 40px;
+}
+.pricing_part .notis .prev {
+    position: absolute;
+    top: 64%;
+    left: 24%;
+}
+.pricing_part .notis .next {
+    position: absolute;
+    top: 64%;
+    right: 24%;
+}
+/* pricing end */
+/* footer start */
+footer {
+    padding: 30px;
+    background: #0e1a35;
+}
+footer p {
+    color: #8492af;
+    margin: 0 0 0rem 0;
+}
+footer span {
+    color: #fff;
+}
+footer .menu_con {
+    display: flex;
+    justify-content: right;
+}
+footer ul {
+    display: flex;
+}
+footer .menu ul li {
+    color: #8492af;
+    margin: 0 40px 0 0;
+}
+footer .icon ul li i {
+    color: #8492af;
+    margin: 0 20px 0 0;
+}
+/* footer end */
