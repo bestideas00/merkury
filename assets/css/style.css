@@ -280,6 +280,9 @@ nav span {
     font-weight: 700;
     color: #0e1a35;
 }
+.pricing_part .item .price p i {
+    font-size: 40px;
+}
 .pricing_part .item .price span {
     font-size: 24px;
     font-weight: 400;
